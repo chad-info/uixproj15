@@ -1,0 +1,158 @@
+body {
+   margin-left: 180px;
+   background-color: darkslategray
+}
+
+#headers {
+   width: 1000px;
+   height: 150px;   
+}
+
+#logo {
+   width: 398px;
+   height: 98px;
+   border: 1px solid silver;
+   float: left;
+}
+
+#headerbanner {
+   width: 598px;
+   height: 148px;
+   background-color: transparent;
+   border: 1px solid silver;
+   float: left
+}
+
+#menubar {
+   width: 998px;
+   height: 40px;
+   border: 1px solid silver;
+   border-radius: 5px;
+   background-color: transparent;
+   float: left;
+}
+
+#innerbody{
+   width: 1000px;
+   height: 700px;
+   border-radius: 5px;
+   background-color: darkseagreen;
+   float: left;
+}
+
+#homeheadings1{
+   margin-top: 10px;
+   margin-left: 20px;
+   width: 580px;
+   float: left;
+   /*background-color: blueviolet;*/
+}
+
+#homeheadings2{
+   margin-top: 10px;
+   margin-left: 20px;
+   width: 580px;
+   float: left;
+   /*background-color: firebrick;*/
+}
+
+#lowerhomebanner{
+   width: 600px;
+   height: 450px;
+   margin-left: 200px;
+   margin-top: 100px;
+   margin-bottom: 45px;
+}
+
+.innerDivs{
+   width: 100%;
+   height: 33%;
+   border-radius: 10px;
+   background-color: chartreuse;
+   float: left;
+   background-color: darkslategrey;
+}
+
+#placeholder{
+   width: 600px;
+   height: 50px;
+   margin-left: 200px;
+   border-radius: 10px;
+   background-color: brown;
+   float: left;
+}
+
+#footers{
+   font-family: Verdana;
+   font-size: 15px;
+   width: 998px;
+   margin-top: 35px;
+   float: left;
+   border: 1px solid transparent;
+}
+
+/*.footers{
+   float: left;
+   border: 1px solid black;
+}*/
+
+#footers6{
+   font-size: 10px;
+   margin-top: 4px;
+   margin-left: 208px;
+   float: left;
+}
+
+h2{
+   font-family: Verdana;
+}
+
+form{
+   margin-left: 150px;
+   margin-top: 100px;
+   float: left;
+   width: 50%;
+   height: 100%;
+}
+
+input{
+   border: 1px solid darkslategrey;
+   width: 100%;
+   height: 30px;
+}
+
+#login{
+   width: 90px;
+   height: 30px;
+   float: right;
+   margin-right: 5px;
+}
+
+#cancel{
+   width: 90px;
+   height: 30px;
+   float: right;
+}
+
+button{
+   margin-top: 5px;
+   border-radius: 10px;
+   background-color: cadetblue;
+}
+
+h3{
+   float: left;
+}
+
+#h2login{
+   margin-left: 100px;
+   width: 100%;
+}
+
+/*#form{
+   width: 100px;
+   height: 100px;
+   border: 1px solid blue;
+   margin-left: 40%;
+   margin-top: 30%*/
+}
