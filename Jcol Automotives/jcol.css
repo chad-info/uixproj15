@@ -1,6 +1,6 @@
 body {
    margin-left: 180px;
-   background-color: darkslategray
+   background-color: azure;
 }
 
 #headers {
@@ -12,6 +12,7 @@ body {
    width: 398px;
    height: 98px;
    border: 1px solid silver;
+   border-radius: 5px;
    float: left;
 }
 
@@ -20,16 +21,21 @@ body {
    height: 148px;
    background-color: transparent;
    border: 1px solid silver;
+   border-radius: 5px;
    float: left
 }
 
 #menubar {
    width: 998px;
    height: 40px;
+   font-size: 20px;
+   font-family: monospace;
    border: 1px solid silver;
    border-radius: 5px;
    background-color: transparent;
    float: left;
+   text-align: center;
+   vertical-align: middle;
 }
 
 #innerbody{
@@ -53,7 +59,6 @@ body {
    margin-left: 20px;
    width: 580px;
    float: left;
-   /*background-color: firebrick;*/
 }
 
 #lowerhomebanner{
@@ -62,6 +67,7 @@ body {
    margin-left: 200px;
    margin-top: 100px;
    margin-bottom: 45px;
+   border-radius: 5px;
 }
 
 .innerDivs{
@@ -82,6 +88,15 @@ body {
    float: left;
 }
 
+#placeholderOtherpages{
+   width: 600px;
+   height: 50px;
+   margin-left: 200px;
+   border-radius: 10px;
+   background-color: transparent;
+   float: left;
+}
+
 #footers{
    font-family: Verdana;
    font-size: 15px;
@@ -90,11 +105,6 @@ body {
    float: left;
    border: 1px solid transparent;
 }
-
-/*.footers{
-   float: left;
-   border: 1px solid black;
-}*/
 
 #footers6{
    font-size: 10px;
@@ -108,11 +118,11 @@ h2{
 }
 
 form{
-   margin-left: 150px;
-   margin-top: 100px;
+   margin-left: 45px;
+   margin-top: 45px;
    float: left;
-   width: 50%;
-   height: 100%;
+   width: 85%;
+   height: 80%;
 }
 
 input{
@@ -132,12 +142,22 @@ input{
    width: 90px;
    height: 30px;
    float: right;
+   margin-right: 10px;
+}
+
+#submit{
+   width: 90px;
+   height: 30px;
+   float: right;
+   margin-right: 5px;
 }
 
 button{
    margin-top: 5px;
    border-radius: 10px;
    background-color: cadetblue;
+   border-color: cadetblue;
+   font-family: Verdana;
 }
 
 h3{
@@ -149,10 +169,30 @@ h3{
    width: 100%;
 }
 
-/*#form{
-   width: 100px;
-   height: 100px;
-   border: 1px solid blue;
-   margin-left: 40%;
-   margin-top: 30%
-}*/
+.formdivs{
+   margin-right: 70px;
+   margin-bottom: 15px;
+   float: right;
+}
+
+#captcha{
+   width: 120px;
+   height: 30px;
+   margin-top: 5px;
+   border-radius: 10px;
+   background-color: cadetblue;
+   border-color: cadetblue;
+}
+
+.forminputs{
+   width: 300px;
+   margin-left: 40px;
+   border-radius: 5px;
+   border: 2px solid cadetblue;
+}
+
+.formradio{
+   margin-left: 30px;
+   width: 30px;
+   height: 20px;
+}

@@ -24,7 +24,6 @@ window.onload = function () {
          if (child.nodeType === 1) {
             child.style.width = "164.6px";
             child.style.height = "38px";
-            child.style.color = "white";
             child.style.float = "left";
             child.setAttribute("id", child.innerHTML);
             child.addEventListener("click", function () {goTo(this); });
@@ -51,7 +50,19 @@ window.onload = function () {
       }
    }
    
+   /*function formControl() {
+      var divs, i, child;
+      
+      divs = document.getElementById("registerform").childNodes;
+      
+      for (i = 0; i < divs.length; i += 1) {
+         child = divs[i].innerHTML;
+         document.getElementById("inputfield").style.marginLeft = (child.length  * 10).toString + "px";
+      }
+   }*/
+   
    initMenuBar();
    initFooters();
+   formControl();
    
 }; //end window.onload
